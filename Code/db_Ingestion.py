@@ -4,7 +4,9 @@ from kafka import KafkaConsumer
 
 db = pymysql.connect(host="52.66.79.237",port=3306,user="candidate",passwd="asdfgh123",db="servify_assignment")
 cursor = db.cursor()
-cursor.execute("SELECT * FROM consumer;")
+
+s = "SELECT * FROM consumer;"
+cursor.execute(s)
 print("consumer: " + str(cursor.rowcount))
 consumer_results = cursor.fetchall()
 
