@@ -6,4 +6,4 @@ The documentation and code of the assignment given.
 
 - Documentation: A pdf document in the directory
 
-- Code: You will find the code of assignment in the Code directory.(Ingestion part wasn't able to complete the streams part yet)
+- Code: You will find the code of assignment in the Code directory.(Ingestion part only wasn't able to complete the streams part yet)
